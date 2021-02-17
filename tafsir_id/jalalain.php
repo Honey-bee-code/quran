@@ -2,15 +2,15 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-12">
-            <h2>Terjemahan bersumber dari Tafsir Jalalain</h2>
-        </div>
     </div>
 </div>
 
 <div class="container">
     <form action="" method="post">
         <div class="row">
+            <div class="col-lg-6">
+                <h2>Terjemahan bersumber dari Tafsir Jalalain</h2>
+            </div>
             <div class="col-lg-2">
                 <div class="form-group">
                     <label for="surat">Nomor Surat</label>
