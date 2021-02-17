@@ -10,8 +10,8 @@ require_once "_config/config.php";
     <title>Qur'an Digital</title>
     <link rel="icon" href="<?=base_url('_assets/img/quran.png')?>">
     <link rel="stylesheet" href="<?=base_url('_assets/css/bootstrap.min.css')?>">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="<?=base_url('_assets/css/fontarab.css')?>" rel="stylesheet">
     <style>
         .arabic{ font-family: 'Amiri', serif; }
     </style>

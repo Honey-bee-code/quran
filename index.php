@@ -24,7 +24,7 @@
         </div>
         <div class="pull-right">
             <div class="form-group">
-               <button type="submit" class="btn btn-flat btn-primary">Tampilkan</button>
+               <button type="submit" name="submit" class="btn btn-flat btn-primary">Tampilkan</button>
             </div>
         </div>
     </form>
