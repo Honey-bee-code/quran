@@ -6,8 +6,8 @@ if(mysqli_connect_errno()){
 }
 
 function base_url($url = null) {
-    // $base_url = "http://localhost/quran";
-    $base_url = "http://192.168.43.54/quran";
+    $base_url = "http://localhost/quran";
+    // $base_url = "http://192.168.43.54/quran";
     if($url != null) {
         return $base_url."/".$url;
     } else {

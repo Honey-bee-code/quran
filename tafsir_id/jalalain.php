@@ -67,7 +67,11 @@ $aya2 = $_POST['ayat2'];
                         <td><?=$data['terjemah']?></td>
                     </tr>
                 </tbody>
-                <?php }} ?>
+                <?php }} else { ?>
+                    <tr>
+                        <td colspan="3" style="text-align: center">Tidak ada tampilan, silahkan pilih !</td>
+                    </tr>
+                <?php } ?>
             </table>
         </div>
     </div>

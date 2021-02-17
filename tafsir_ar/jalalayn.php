@@ -55,7 +55,7 @@ $aya2 = $_POST['ayat2'];
                     </tr>
                 </thead>
                         <?php 
-                        $query = mysqli_query($koneksi, "SELECT * FROM quran_text  INNER JOIN en_yusufali ON en_yusufali.index = quran_text.index 
+                        $query = mysqli_query($koneksi, "SELECT * FROM quran_text  INNER JOIN ar_jalalayn ON ar_jalalayn.index = quran_text.index 
                          WHERE quran_text.sura = '$sura' AND quran_text.aya BETWEEN '$aya1' AND '$aya2'") 
                         or die (mysqli_error($koneksi));
                         if (mysqli_num_rows($query) > 0) {
@@ -67,7 +67,11 @@ $aya2 = $_POST['ayat2'];
                         <td><?=$data['terjemah']?></td>
                     </tr>
                 </tbody>
-                <?php }} ?>
+                <?php }} else { ?>
+                    <tr>
+                        <td colspan="3" style="text-align: center">Tidak ada tampilan, silahkan pilih !</td>
+                    </tr>
+                <?php } ?>
             </table>
         </div>
     </div>
