@@ -59,6 +59,16 @@ require_once "_config/config.php";
                         <a class="dropdown-item" href="#">Tafsir lainnya dalam proses</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tafsir Arab
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="<?=base_url('tafsir_ar/jalalayn.php')?>">Jalalayn</a>
+                    <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Tafsir lainnya dalam proses</a>
+                    </div>
+                </li>
             </ul>
             <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
