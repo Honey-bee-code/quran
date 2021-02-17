@@ -12,8 +12,10 @@ require_once "_config/config.php";
     <link rel="stylesheet" href="<?=base_url('_assets/css/bootstrap.min.css')?>">
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link href="<?=base_url('_assets/css/fontarab.css')?>" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" rel="stylesheet" type="text/css" />
+
     <style>
-        .arabic{ font-family: 'Amiri', serif; }
+        .arabic{  font-family: 'Droid Arabic Naskh', 'Monda', sans-serif; }
     </style>
 
 
