@@ -56,7 +56,7 @@ require_once "_config/config.php";
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?=base_url('tafsir_en/yusufali.php')?>">Yusuf Ali</a>
                     <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Tafsir lainnya dalam proses</a>
+                        <a class="dropdown-item" href="#">Tafsir lainnya masih dalam proses</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -66,7 +66,7 @@ require_once "_config/config.php";
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?=base_url('tafsir_ar/jalalayn.php')?>">Jalalayn</a>
                     <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Tafsir lainnya dalam proses</a>
+                        <a class="dropdown-item" href="#">Tafsir lainnya masih dalam proses</a>
                     </div>
                 </li>
             </ul>
