@@ -1,16 +1,12 @@
 <?php include('../_header.php'); ?>
 
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <h2>Terjemahan bersumber dari Al-Muntakhab karya Prof. Quraisy Syihab</h2>
-        </div>
-    </div>
-</div>
-
-<div class="container">
     <form action="" method="post">
         <div class="row">
+            <div class="col-lg-6">
+                <h4>Sumber tafsir :</h4>
+                <h2>Profesor Quraisy Syihab</h2>
+            </div>
             <div class="col-lg-2">
                 <div class="form-group">
                     <label for="surat">Nomor Surat</label>
@@ -30,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="pull-right">
+        <div style="text-align: right">
             <div class="form-group">
                <button type="submit" name="submit" class="btn btn-flat btn-primary">Tampilkan</button>
             </div>

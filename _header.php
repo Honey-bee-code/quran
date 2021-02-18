@@ -40,7 +40,7 @@ require_once "_config/config.php";
                 </li> -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tafsir Indonesia
+                    Tafsir Bahasa Indonesia
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?=base_url('tafsir_id/jalalain.php')?>">Jalalain</a>
@@ -51,7 +51,7 @@ require_once "_config/config.php";
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tafsir English
+                    Tafsir Bahasa Inggris
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?=base_url('tafsir_en/yusufali.php')?>">Yusuf Ali</a>
@@ -61,7 +61,7 @@ require_once "_config/config.php";
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tafsir Arab
+                    Tafsir Bahasa Arab
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?=base_url('tafsir_ar/jalalayn.php')?>">Jalalayn</a>
