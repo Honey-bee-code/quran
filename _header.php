@@ -21,6 +21,10 @@ require_once "_config/config.php";
 
 </head>
 <body>
+<script src="<?=base_url('_assets/js/jquery-3.5.1.slim.min.js')?>"></script>
+<script src="<?=base_url('_assets/js/bootstrap.min.js')?>"></script>
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" href="#">
             <img src="<?=base_url('_assets/img/quran.png')?>" width="30" height="30" alt="" loading="lazy">
@@ -70,10 +74,7 @@ require_once "_config/config.php";
                     </div>
                 </li>
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
+            
         </div>
     </nav>
 
