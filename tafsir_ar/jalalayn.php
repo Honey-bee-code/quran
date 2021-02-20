@@ -60,7 +60,7 @@ $aya2 = $_POST['ayat2'];
                     <tr>
                         <td><?=$data['aya']?></td>
                         <td class="arabic" style="text-align: right"><?=$data['text']?></td>
-                        <td><?=$data['terjemah']?></td>
+                        <td  class="arabic" style="text-align: right"><?=$data['terjemah']?></td>
                     </tr>
                 </tbody>
                 <?php }} else { ?>
