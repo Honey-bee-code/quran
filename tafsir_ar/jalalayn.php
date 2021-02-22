@@ -10,7 +10,12 @@
             <div class="col-lg-2">
                 <div class="form-group">
                     <label for="surat">Nomor Surat</label>
-                    <input type="text" name="surat" id="surat" value="<?=$_POST['surat']?>" maxlength="3" pattern="[0-9]+" class="form-control" required>
+                    <select name="" class="form-control">
+                        <option value="">-- Pilih --</option>
+                        <?php for($i=1;$i<=114;$i++){ ?>
+                        <option value="<?=$i?>">Surat ke-<?=$i?></option>
+                        <?php } ?>
+                    </select>
                 </div>
             </div>
             <div class="col-lg-2">
