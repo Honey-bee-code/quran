@@ -6,5 +6,11 @@
         </div>
     </footer>
 </div>
+<script>
+$(document).on('change', '#ayat1', function() {
+    $('#ayat2').val($(this).val())
+})
+</script>
+
 </body>
 </html>

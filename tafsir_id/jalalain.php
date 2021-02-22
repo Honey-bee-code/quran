@@ -10,12 +10,7 @@
             <div class="col-lg-2">
                 <div class="form-group">
                     <label for="surat">Nomor Surat</label>
-                    <select name="surat" id="" class="form-control">
-                    <?php 
-                    for ($i=1; $i<=114; $i++){ ?>
-                        <option value=""><?=$i?></option>
-                    <?php }  ?>
-                    </select>
+                    <input type="text" name="surat" id="surat" value="<?=$_POST['surat']?>" maxlength="3" pattern="[0-9]+" class="form-control" required>
                 </div>
             </div>
             <div class="col-lg-2">
@@ -77,6 +72,7 @@ $aya2 = $_POST['ayat2'];
         </div>
     </div>
 </div>
+
 
 
 <?php include('../_footer.php'); ?>
