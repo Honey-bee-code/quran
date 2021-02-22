@@ -10,7 +10,7 @@
             <div class="col-lg-2">
                 <div class="form-group">
                     <label for="surat">Nomor Surat</label>
-                    <select name="" class="form-control">
+                    <select name="surat" class="form-control">
                         <option value="">-- Pilih --</option>
                         <?php for($i=1;$i<=114;$i++){ ?>
                         <option value="<?=$i?>">Surat ke-<?=$i?></option>
